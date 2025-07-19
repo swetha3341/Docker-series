@@ -30,13 +30,13 @@ docker run hello-world
 This outputs an error saying permission denied for 2 reasons.
 
 1. docker deamon not running
-2. 
+   
 3. user doesnt have access to run the docker commands.
 
 Hence perform he below steps to resolve the issue.
 
 5. Check the status of  the Daemon process ,If not running then start it.
-6. 
+   
 ```
 sudo systemctl status docker
 ``` 
