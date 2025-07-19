@@ -28,17 +28,22 @@ docker run hello-world
 ```
 
 This outputs an error saying permission denied for 2 reasons.
+
 1. docker deamon not running
-2. user doesnt have access to run the docker commands.
+2. 
+3. user doesnt have access to run the docker commands.
 
 Hence perform he below steps to resolve the issue.
 
 5. Check the status of  the Daemon process ,If not running then start it.
+6. 
 ```
 sudo systemctl status docker
 ``` 
-6. Add the user ubutu to group docker 
+6. Add the user ubutu to group docker
+   
 Docker daemon (dockerd) runs as root.
+
 We add users to the docker group to let them use Docker without sudo.
 ⚠️ This gives root-like access — it's a security risk.
 
@@ -48,10 +53,12 @@ sudo usermod -aG docker ubuntu
 
 🧠 Adding a user to the Docker group lets them access the Docker socket (/var/run/docker.sock), which has root privileges.
 
-7. Write the DockerFile 
+7. Write the DockerFile
+8. 
 This builds a container that runs the python-app
 
 🧠 What does "Separating install and runtime steps in a Dockerfile" mean?
+
 It means you clearly separate the steps where you install things (like Python or libraries) from the steps where you run your app. This improves:
 
 ✅ Readability – Easier to understand what's being installed and what's being run.
@@ -59,9 +66,10 @@ It means you clearly separate the steps where you install things (like Python or
 🔒 Security & stability – Installations are done only once; runtime is clean and stable.
 
 8. app.py
+   
 A simple python script that prints "Hello World"
 
-9. Build Docker Image
+10. Build Docker Image
 
 ```
 docker build -t swetha/first-docker-image:latest .
