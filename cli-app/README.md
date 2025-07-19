@@ -54,7 +54,7 @@ sudo usermod -aG docker ubuntu
 🧠 Adding a user to the Docker group lets them access the Docker socket (/var/run/docker.sock), which has root privileges.
 
 7. Write the DockerFile
-8. 
+   
 This builds a container that runs the python-app
 
 🧠 What does "Separating install and runtime steps in a Dockerfile" mean?
