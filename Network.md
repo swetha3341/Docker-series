@@ -17,3 +17,46 @@
 
 
 <img width="945" height="289" alt="image" src="https://github.com/user-attachments/assets/dd29d8ac-9794-4258-8b23-de66a863f101" />
+
+
+<img width="419" height="60" alt="image" src="https://github.com/user-attachments/assets/a1a34254-34cc-4622-8404-5613b1bfc1f3" />
+IPAddress": "172.17.0.2
+
+<img width="591" height="313" alt="image" src="https://github.com/user-attachments/assets/e7594dcd-dad8-4ed2-ba7d-cd71f05c338c" />
+
+
+<img width="413" height="109" alt="image" src="https://github.com/user-attachments/assets/5fc26204-941b-4510-8b90-a32fff331d14" />
+
+<img width="618" height="187" alt="image" src="https://github.com/user-attachments/assets/4c25607d-83f8-4fb2-ad48-0ca136a4c759" />
+"Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "...",
+                    "DriverOpts": null,
+                    "NetworkID": "....",
+                    "EndpointID": "...",
+                    "Gateway": "172.12.0.1",
+                    "IPAddress": "172.12.0.3",
+
+<img width="968" height="187" alt="image" src="https://github.com/user-attachments/assets/5cdffd4d-4c4f-42de-a27c-f109dd97cd10" />
+
+
+<img width="432" height="56" alt="image" src="https://github.com/user-attachments/assets/cdef68cb-a43c-4318-98ee-952a547524d3" />
+
+"Networks": {
+                "custom-bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "...",
+                    "DriverOpts": null,
+                    "NetworkID": "....",
+                    "EndpointID": "...",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+
+<img width="635" height="144" alt="image" src="https://github.com/user-attachments/assets/e2644e52-a957-4095-b2be-de35e8cc4422" />
+
+
